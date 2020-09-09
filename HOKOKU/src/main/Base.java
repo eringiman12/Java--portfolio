@@ -20,6 +20,7 @@ public class Base {
 
 	/*インストーラーに含められているファイルパス*/
 	//Register_Name・help_Text・icon_path・template_Cpath
+	//build配下のアイコンは、インストーラーで、必要ファイルをインストールした際に追加される
 
 	//windowsユーザー名
 	String username = System.getProperty("user.name");
