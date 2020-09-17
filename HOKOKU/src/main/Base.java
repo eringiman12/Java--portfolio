@@ -58,9 +58,9 @@ public class Base {
         //今日の年月のフォルダ取得（月跨ぎではない）
         File now_yyyy_dir = new File( RootPath + YYYY_List.get(0) + "\\" + Mon_List.get(0));
         //ZIPファイルパス(作成日が金曜日)
-	    File Zip_path_Today = new File("C:\\Users\\"+ username +"\\Desktop\\報告_" + Day_List.get(0) + User_Leader + ".zip");
+	File Zip_path_Today = new File("C:\\Users\\"+ username +"\\Desktop\\報告_" + Day_List.get(0) + User_Leader + ".zip");
         //ZIPファイルパス(作成日が金曜日じゃない)
-	    File Zip_path_next = new File("C:\\Users\\"+ username +"\\Desktop\\報告_" + Day_List.get(1) + User_Leader + ".zip");
+	File Zip_path_next = new File("C:\\Users\\"+ username +"\\Desktop\\報告_" + Day_List.get(1) + User_Leader + ".zip");
         //今日の日付の報告書（作成日金曜日のみ）
         File Today_Friday = new File(now_yyyy_dir + "\\報告_"+ Day_List.get(0) + User_Leader + ".xls");
         File last_Friday = new File(last_yyyy_dir + "\\報告_"+ Day_List.get(2) + User_Leader + ".xls");
